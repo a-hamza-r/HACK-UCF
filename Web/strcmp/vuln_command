@@ -1,0 +1,8 @@
+https://www.php.net/manual/en/function.strcmp.php
+To learn more about the php strcmp function, I looked at the above link. It mentions that strcmp returns NULL + a warning when comparing different types of parameters. 
+NULL is equivalent to 0, which is also the output when strings being compared are equal.
+Since, I cannot directly input an integer (because it will be recognized as a string by browser - may be there is an easy way but I do not know), I input the `passwd` field as an array like in this request:
+    ctf.hackucf.org:4000/cmp/cmp.php?passwd[]=test
+This results in printing out the password and giving a warning. 
+Password is the flag:
+    flag{php_is_really_really_well_designed}

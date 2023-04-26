@@ -1,0 +1,2 @@
+nc ctf.hackucf.org 32101
+This is the same program as stack0 part 1. Now, read the contents of flag2.txt.

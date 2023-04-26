@@ -1,0 +1,7 @@
+This was a challenge from SunshineCTF 2017. Here is the description:
+
+Agent,
+
+We have determined that Vladimir Putin uses an online note taking service called Notetorious. His username on this service is vputin. Your objective is to exfiltrate his secret notes.
+
+nc ctf.hackucf.org 20009

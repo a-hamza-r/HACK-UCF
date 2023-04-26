@@ -1,0 +1,3 @@
+Read the contents of flag1.txt.
+
+nc ctf.hackucf.org 32101
